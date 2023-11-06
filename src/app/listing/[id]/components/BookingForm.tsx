@@ -1,7 +1,12 @@
 "use client";
+import { ListingProps } from "@/app/types/listing";
 import React, { useState } from "react";
 import { AiFillStar } from "react-icons/ai";
 import DatePicker, { DateValueType } from "react-tailwindcss-datepicker";
+
+interface BookingFormProps {
+  listing: ListingProps | undefined;
+}
 
 function differenceInMonths(date1: Date, date2: Date) {
   const monthsDiff =
@@ -10,7 +15,7 @@ function differenceInMonths(date1: Date, date2: Date) {
   return Math.abs(Math.ceil(monthsDiff));
 }
 
-const MyComponent = ({ listing }: any) => {
+const MyComponent: React.FC<BookingFormProps> = ({ listing }) => {
   const [value, setValue] = useState<DateValueType>({
     startDate: new Date(),
     endDate: new Date(new Date().setDate(new Date().getDate() + 30)),

@@ -4,9 +4,10 @@ import { BiBed } from "react-icons/bi";
 import { FaToilet } from "react-icons/fa";
 import { MdEventSeat } from "react-icons/md";
 import ListingOffers from "./ListingOffers";
+import { ListingProps } from "@/app/types/listing";
 
 interface ListingDetailProps {
-  listing: any;
+  listing: ListingProps | undefined;
 }
 
 const ListingDetail: React.FC<ListingDetailProps> = ({ listing }) => {

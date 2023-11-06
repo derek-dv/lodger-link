@@ -3,17 +3,19 @@ import listings from "@/app/assets/listings.json";
 import ListingImages from "./components/ListingImages";
 import BookingForm from "./components/BookingForm";
 import ListingDetail from "./components/ListingDetail";
-interface ListingProps {
+import ListingReviews from "./components/ListingReviews";
+import { ListingProps } from "@/app/types/listing";
+interface PageProps {
   params: {
     id: number;
   };
 }
 
-const getListing = async (id: number) => {
+const getListing: (id: number) => ListingProps | undefined = (id) => {
   return listings.listings.find((listing) => listing.id === id);
 };
 
-const Listing: React.FC<ListingProps> = async ({ params }) => {
+const Listing: React.FC<PageProps> = async ({ params }) => {
   // const router = useRouter();
   const id: number = Number(params.id);
   const listing = await getListing(id);
@@ -37,7 +39,10 @@ const Listing: React.FC<ListingProps> = async ({ params }) => {
         </div>
       </div>
       <hr className="my-5" />
-      <div className="">reviews</div>
+      <div className="">
+        <ListingReviews listing={listing} />
+      </div>
+      <hr className="my-5" />
     </div>
   );
 };

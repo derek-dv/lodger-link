@@ -1,0 +1,238 @@
+{
+  "reviews": [
+    {
+      "reviewer_name": "John Doe",
+      "review": "Great experience working with this realtor. Highly recommended!",
+      "imgUrl": "https://example.com/images/john_doe.jpg",
+      "date": "2021-06-14"
+    },
+    {
+      "reviewer_name": "Jane Smith",
+      "review": "Professional and knowledgeable realtor, helped us find our dream home.",
+      "imgUrl": "https://example.com/images/jane_smith.jpg",
+      "date": "2022-09-28"
+    },
+    {
+      "reviewer_name": "Michael Johnson",
+      "review": "Excellent service. Sold our house quickly and efficiently.",
+      "imgUrl": "https://example.com/images/michael_johnson.jpg",
+      "date": "2023-04-05"
+    },
+    {
+      "reviewer_name": "Emily Brown",
+      "review": "The realtor was attentive to our needs and found us a great property.",
+      "imgUrl": "https://example.com/images/emily_brown.jpg",
+      "date": "2021-12-10"
+    },
+    {
+      "reviewer_name": "David Wilson",
+      "review": "Smooth transaction and a hassle-free home buying experience.",
+      "imgUrl": "https://example.com/images/david_wilson.jpg",
+      "date": "2022-05-21"
+    },
+    {
+      "reviewer_name": "Sophia Martinez",
+      "review": "We couldn't be happier with our choice of realtor. Highly recommended!",
+      "imgUrl": "https://example.com/images/sophia_martinez.jpg",
+      "date": "2023-01-15"
+    },
+    {
+      "reviewer_name": "Daniel Lee",
+      "review": "Exceptional service, and they went the extra mile to find our dream home.",
+      "imgUrl": "https://example.com/images/daniel_lee.jpg",
+      "date": "2021-08-03"
+    },
+    {
+      "reviewer_name": "Olivia Taylor",
+      "review": "A very responsive and reliable realtor. Helped us sell our property quickly.",
+      "imgUrl": "https://example.com/images/olivia_taylor.jpg",
+      "date": "2022-11-30"
+    },
+    {
+      "reviewer_name": "William Clark",
+      "review": "Impressed with the realtor's expertise and negotiation skills.",
+      "imgUrl": "https://example.com/images/william_clark.jpg",
+      "date": "2023-03-19"
+    },
+    {
+      "reviewer_name": "Ava Lewis",
+      "review": "We found our dream home with the help of this realtor. They were fantastic!",
+      "imgUrl": "https://example.com/images/ava_lewis.jpg",
+      "date": "2021-10-25"
+    },
+    {
+      "reviewer_name": "Liam Anderson",
+      "review": "Top-notch service and excellent communication throughout the process.",
+      "imgUrl": "https://example.com/images/liam_anderson.jpg",
+      "date": "2022-07-08"
+    },
+    {
+      "reviewer_name": "Ella White",
+      "review": "The realtor made the buying process a breeze. Highly recommended!",
+      "imgUrl": "https://example.com/images/ella_white.jpg",
+      "date": "2023-02-12"
+    },
+    {
+      "reviewer_name": "James Harris",
+      "review": "Sold our house faster than we expected. Great job!",
+      "imgUrl": "https://example.com/images/james_harris.jpg",
+      "date": "2021-09-15"
+    },
+    {
+      "reviewer_name": "Mia King",
+      "review": "Knowledgeable and friendly realtor. Helped us find the perfect home.",
+      "imgUrl": "https://example.com/images/mia_king.jpg",
+      "date": "2022-12-03"
+    },
+    {
+      "reviewer_name": "Benjamin Turner",
+      "review": "We had a great experience working with this realtor. Highly recommended!",
+      "imgUrl": "https://example.com/images/benjamin_turner.jpg",
+      "date": "2023-03-06"
+    },
+    {
+      "reviewer_name": "Avery Green",
+      "review": "The realtor's advice and expertise were invaluable in our home search.",
+      "imgUrl": "https://example.com/images/avery_green.jpg",
+      "date": "2021-11-20"
+    },
+    {
+      "reviewer_name": "Chloe Baker",
+      "review": "Reliable and trustworthy realtor. Made the process smooth and stress-free.",
+      "imgUrl": "https://example.com/images/chloe_baker.jpg",
+      "date": "2022-10-14"
+    },
+    {
+      "reviewer_name": "Henry Adams",
+      "review": "Helped us find our dream home. Great communication and service!",
+      "imgUrl": "https://example.com/images/henry_adams.jpg",
+      "date": "2023-01-25"
+    },
+    {
+      "reviewer_name": "Nora Scott",
+      "review": "The realtor exceeded our expectations. A pleasure to work with.",
+      "imgUrl": "https://example.com/images/nora_scott.jpg",
+      "date": "2021-12-05"
+    },
+    {
+      "reviewer_name": "Samuel Hall",
+      "review": "Efficient and professional service. Highly recommended realtor.",
+      "imgUrl": "https://example.com/images/samuel_hall.jpg",
+      "date": "2022-08-18"
+    },
+    {
+      "reviewer_name": "Grace Wright",
+      "review": "Sold our house for a great price. Thank you, realtor!",
+      "imgUrl": "https://example.com/images/grace_wright.jpg",
+      "date": "2023-02-28"
+    },
+    {
+      "reviewer_name": "Jack Phillips",
+      "review": "The realtor made the entire process stress-free. Excellent service!",
+      "imgUrl": "https://example.com/images/jack_phillips.jpg",
+      "date": "2021-10-10"
+    },
+    {
+      "reviewer_name": "Luna Martinez",
+      "review": "We found our perfect home thanks to this realtor. Highly recommended!",
+      "imgUrl": "https://example.com/images/luna_martinez.jpg",
+      "date": "2022-07-31"
+    },
+    {
+      "reviewer_name": "Noah Adams",
+      "review": "Responsive and knowledgeable realtor. A pleasure to work with.",
+      "imgUrl": "https://example.com/images/noah_adams.jpg",
+      "date": "2023-01-10"
+    },
+    {
+      "reviewer_name": "Violet Baker",
+      "review": "The realtor helped us navigate the market and find a great deal.",
+      "imgUrl": "https://example.com/images/violet_baker.jpg",
+      "date": "2021-11-05"
+    },
+    {
+      "reviewer_name": "Zoe Murphy",
+      "review": "Professional and dedicated service. We found our dream home!",
+      "imgUrl": "https://example.com/images/zoe_murphy.jpg",
+      "date": "2022-09-20"
+    },
+    {
+      "reviewer_name": "Lucas Garcia",
+      "review": "Fantastic experience with this realtor. Couldn't be happier!",
+      "imgUrl": "https://example.com/images/lucas_garcia.jpg",
+      "date": "2023-03-14"
+    },
+    {
+      "reviewer_name": "Penelope Nguyen",
+      "review": "The realtor's guidance was invaluable in finding our new home.",
+      "imgUrl": "https://example.com/images/penelope_nguyen.jpg",
+      "date": "2021-12-30"
+    },
+    {
+      "reviewer_name": "Xavier Rivera",
+      "review": "Highly recommended realtor. Helped us through every step of the process.",
+      "imgUrl": "https://example.com/images/xavier_rivera.jpg",
+      "date": "2022-08-07"
+    },
+    {
+      "reviewer_name": "Hazel Wright",
+      "review": "We're grateful for the realtor's expertise. Smooth and efficient service.",
+      "imgUrl": "https://example.com/images/hazel_wright.jpg",
+      "date": "2023-02-05"
+    },
+    {
+      "reviewer_name": "Owen Martinez",
+      "review": "A great experience working with this realtor. Very professional!",
+      "imgUrl": "https://example.com/images/owen_martinez.jpg",
+      "date": "2021-11-15"
+    },
+    {
+      "reviewer_name": "Stella Taylor",
+      "review": "The realtor was a pleasure to work with. Highly recommended!",
+      "imgUrl": "https://example.com/images/stella_taylor.jpg",
+      "date": "2022-10-28"
+    },
+    {
+      "reviewer_name": "Theodore Collins",
+      "review": "Extremely helpful and knowledgeable realtor. Made the process easy.",
+      "imgUrl": "https://example.com/images/theodore_collins.jpg",
+      "date": "2023-01-20"
+    },
+    {
+      "reviewer_name": "Aria Adams",
+      "review": "Helped us find the perfect home. Professional and efficient service!",
+      "imgUrl": "https://example.com/images/aria_adams.jpg",
+      "date": "2021-12-20"
+    },
+    {
+      "reviewer_name": "Eli Jenkins",
+      "review": "The realtor was dedicated and helped us find exactly what we needed.",
+      "imgUrl": "https://example.com/images/eli_jenkins.jpg",
+      "date": "2022-09-10"
+    },
+    {
+      "reviewer_name": "Harper Wilson",
+      "review": "Exceptional service. The realtor made the entire process stress-free.",
+      "imgUrl": "https://example.com/images/harper_wilson.jpg",
+      "date": "2023-03-01"
+    },
+    {
+      "reviewer_name": "Levi Cooper",
+      "review": "The realtor's expertise was evident throughout. Highly recommended!",
+      "imgUrl": "https://example.com/images/levi_cooper.jpg",
+      "date": "2021-11-30"
+    },
+    {
+      "reviewer_name": "Quinn Parker",
+      "review": "We found our dream home with the help of this realtor. Very pleased!",
+      "imgUrl": "https://example.com/images/quinn_parker.jpg",
+      "date": "2022-10-05"
+    },
+    {
+      "reviewer_name": "Wyatt Turner",
+      "review": "Professional and efficient service. The realtor was fantastic to work with.",
+      "imgUrl": "https://example.com/images/wyatt_turner.jpg",
+      "date": "2023-01-15"
+    }
+  ]
+}

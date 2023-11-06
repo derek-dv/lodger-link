@@ -35,6 +35,7 @@ const Listing: React.FC<ListingProp> = ({
     <div className="max-w-md w-64 mx-auto  bg-white rounded-md overflow-hidden">
       <div className="relative">
         <Image
+          loading="lazy"
           src={imageUrl}
           width={500}
           height={500}
