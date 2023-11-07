@@ -37,6 +37,9 @@ const ListingReviews: React.FC<Props> = ({ listing }) => {
           ))}
         </div>
       </div>
+      <button className="bg-white text-black py-2 px-4 rounded-md mt-5 transform duration-100 border-blue-500 hover:border-blue-700 border-2">
+        Load More Reviews
+      </button>
     </div>
   );
 };

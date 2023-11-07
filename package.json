@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "chart.js": "^4.4.0",
     "dayjs": "^1.11.6",
+    "flowbite": "^2.0.0",
     "framer-motion": "^10.16.4",
     "next": "13.5.5",
     "react": "^18",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
     "react-icons": "^4.11.0",
     "react-tailwindcss-datepicker": "^1.6.6"

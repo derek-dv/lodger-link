@@ -5,6 +5,7 @@ import BookingForm from "./components/BookingForm";
 import ListingDetail from "./components/ListingDetail";
 import ListingReviews from "./components/ListingReviews";
 import { ListingProps } from "@/app/types/listing";
+import AgentDetail from "./components/AgentDetail";
 interface PageProps {
   params: {
     id: number;
@@ -43,6 +44,12 @@ const Listing: React.FC<PageProps> = async ({ params }) => {
         <ListingReviews listing={listing} />
       </div>
       <hr className="my-5" />
+      <div className="">
+        <AgentDetail
+          agent={listing!.owner}
+          numberOfReviews={listing!.number_of_reviews}
+        />
+      </div>
     </div>
   );
 };
