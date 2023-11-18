@@ -6,6 +6,7 @@ import ListingDetail from "./components/ListingDetail";
 import ListingReviews from "./components/ListingReviews";
 import { ListingProps } from "@/app/types/listing";
 import AgentDetail from "./components/AgentDetail";
+// import Navbar from "@/app/components/Navbar";
 interface PageProps {
   params: {
     id: number;
@@ -22,33 +23,35 @@ const Listing: React.FC<PageProps> = async ({ params }) => {
   const listing = await getListing(id);
 
   return (
-    <div className="w-11/12 mt-6 mx-auto ">
-      <h1 className="font-medium text-2xl">{listing?.title}</h1>
-      <div className="flex items-center gap-3 text-sm font-semibold">
-        <div className="flex items-center font-bold">
-          <AiFillStar />
-          <p>{listing!.review / 2}</p>
+    <div className="">
+      <div className="w-11/12 mt-6 mx-auto ">
+        <h1 className="font-medium text-2xl">{listing?.title}</h1>
+        <div className="flex items-center gap-3 text-sm font-semibold">
+          <div className="flex items-center font-bold">
+            <AiFillStar />
+            <p>{listing!.review / 2}</p>
+          </div>
+          <p>{`${listing?.number_of_reviews} reviews`}</p>
+          <p>{listing?.location}</p>
         </div>
-        <p>{`${listing?.number_of_reviews} reviews`}</p>
-        <p>{listing?.location}</p>
-      </div>
-      <ListingImages listing={listing} />
-      <div className="mt-4">
-        <div className="flex flex-wrap gap-32 justify-between">
-          <ListingDetail listing={listing} />
-          <BookingForm listing={listing} />
+        <ListingImages listing={listing} />
+        <div className="mt-4">
+          <div className="flex flex-wrap gap-32 justify-between">
+            <ListingDetail listing={listing} />
+            <BookingForm listing={listing} />
+          </div>
         </div>
-      </div>
-      <hr className="my-5" />
-      <div className="">
-        <ListingReviews listing={listing} />
-      </div>
-      <hr className="my-5" />
-      <div className="">
-        <AgentDetail
-          agent={listing!.owner}
-          numberOfReviews={listing!.number_of_reviews}
-        />
+        <hr className="my-5" />
+        <div className="">
+          <ListingReviews listing={listing} />
+        </div>
+        <hr className="my-5" />
+        <div className="">
+          <AgentDetail
+            agent={listing!.owner}
+            numberOfReviews={listing!.number_of_reviews}
+          />
+        </div>
       </div>
     </div>
   );

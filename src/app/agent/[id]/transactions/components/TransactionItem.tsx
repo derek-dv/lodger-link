@@ -1,7 +1,8 @@
 import TransactionType from "@/app/types/transaction";
+import Link from "next/link";
 import React from "react";
 
-const TransactionTableItem: React.FC<TransactionType> = ({
+const TransactionItem: React.FC<TransactionType> = ({
   amount,
   date,
   name,
@@ -30,7 +31,9 @@ const TransactionTableItem: React.FC<TransactionType> = ({
         scope="row"
         className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white"
       >
-        {name}
+        <Link className="text-blue-700 hover:underline" href="#">
+          {name}
+        </Link>
       </td>
       <td scope="col" className="px-6 py-3 font-normal">
         ${amount}
@@ -47,4 +50,4 @@ const TransactionTableItem: React.FC<TransactionType> = ({
   );
 };
 
-export default TransactionTableItem;
+export default TransactionItem;

@@ -36,13 +36,13 @@ const Sidebar: React.FC<Props> = ({ id }) => {
         </svg>
       </button>
 
-      <aside
+      <div
         id="default-sidebar"
         className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
         aria-label="Sidebar"
       >
         <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
-          <ul className="space-y-2 font-medium">
+          <div className="space-y-2 font-medium">
             <SideLink
               name="Dashboard"
               icon={BiSolidDashboard}
@@ -52,24 +52,32 @@ const Sidebar: React.FC<Props> = ({ id }) => {
               name="Transactions"
               icon={AiOutlineTransaction}
               alert="50"
-              href={`${id}/transactions`}
+              href={`/agent/${id}/transactions`}
             />
             <SideLink
               name="Listed Houses"
               icon={BsFillHousesFill}
-              href={`${id}/houses`}
+              href={`/agent/${id}/houses`}
             />
             <SideLink
               name="Messages"
               icon={AiFillMessage}
               alert="10"
-              href={`${id}/messages`}
+              href={`/agent/${id}/messages`}
             />
-            <SideLink name="Profile" icon={CgProfile} href={`${id}/profile`} />
-            <SideLink name="Logout" icon={IoIosLogOut} href={`${id}/logout`} />
-          </ul>
+            <SideLink
+              name="Profile"
+              icon={CgProfile}
+              href={`/agent/${id}/profile`}
+            />
+            <SideLink
+              name="Logout"
+              icon={IoIosLogOut}
+              href={`/agent/${id}/logout`}
+            />
+          </div>
         </div>
-      </aside>
+      </div>
     </div>
   );
 };

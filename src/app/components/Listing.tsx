@@ -32,7 +32,7 @@ const Listing: React.FC<ListingProp> = ({
     router.push(`/listing/${id}`);
   };
   return (
-    <div className="max-w-md w-64 mx-auto  bg-white rounded-md overflow-hidden">
+    <div className="max-w-md w-64 mx-auto shadow hover:shadow-lg bg-white rounded-md overflow-hidden duration-200 transition-all cursor-pointer hover:scale-105">
       <div className="relative">
         <Image
           loading="lazy"
