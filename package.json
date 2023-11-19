@@ -22,7 +22,7 @@
     "recharts": "^2.9.3"
   },
   "devDependencies": {
-    "@types/node": "^20",
+    "@types/node": "^20.9.1",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10",

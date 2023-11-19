@@ -1,4 +1,4 @@
-export interface ListingProps {
+export interface ListingType {
   id: number;
   title: string;
   description: string;
@@ -11,4 +11,5 @@ export interface ListingProps {
   toilets: number;
   owner: string;
   type: string;
+  status?: "available" | "unavailable";
 }
